@@ -1,12 +1,37 @@
+
+
 body{
-	background-color: tan;
+	background-color: orange;
 }
+@keyframes a{
+	0%{color: blue;}
+	50%{color: purple;}
+	100%{color: blue;}
+}
+@keyframes div{
+	0%{color: blue;}
+	50%{color: purple;}
+	100%{color: blue;}
+}
+
 p{
-	font-family: Times New Roman;
-	font-size: 30px;
+	font-family: 'Fjord One', serif;;
+	font-size: 50px;
 	text-align: center;
+	padding-top: 100px;
+}
+div{
+	font-family: 'Fjord One', serif;
+	text-align: right;
+	font-size: 40px;
+	padding-right: 100px;
+	animation-name: div;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 a{
-	font-family: Times New Roman;
-	font-size: 30px;
+	color: blue;
+	animation-name: a;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
