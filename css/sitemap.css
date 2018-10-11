@@ -2,14 +2,14 @@ body{
 	background-color: orange;
 }
 @keyframes a{
-	0%{color: blue;}
-	50%{color: green;}
-	100%{color: blue;}
+	0%{color: #7B68EE;}
+	50%{color: #FFDEAD;}
+	100%{color: #7B68EE;}
 }
 @keyframes l{
-	0%{color: blue;}
-	50%{color: red;}
-	100%{color: blue;}
+	0%{color: #7B68EE;}
+	50%{color: #DC143C;}
+	100%{color: #7B68EE;}
 }
 p{
 	font-family: 'Fjord One', serif;;
@@ -26,19 +26,19 @@ div{
 }
 .author{
 	font-family: 'Fjord One', serif;
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
 }
 a{
 	color: blue;
 	text-decoration: none;
 	animation-name: a;
-	animation-duration: 2s;
+	animation-duration: 3.6s;
 	animation-iteration-count: infinite;
 }
 l{
 	color:red;
 	animation-name: l;
-	animation-duration: 2s;
+	animation-duration: 3.6s;
 	animation-iteration-count: infinite;
 }
