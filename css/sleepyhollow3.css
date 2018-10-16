@@ -1,0 +1,45 @@
+h1{
+	font-family: 'K2D', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+}
+h3{
+	font-family: 'K2D', sans-serif;
+	text-align: center;
+}
+h6{
+	font-family: 'K2D', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: lightgrey;
+}
+.subpoem{
+	font-family: 'Krub', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.poem{
+	text-align: center;
+}
+.poems{
+	text-align: center;
+}
+.castle{
+	text-align: center;
+}
+p{
+	font-family: 'Playfair Display', serif;
+	padding-left: 350px;
+	padding-right: 350px;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+}
+hr{
+	width: 600px;
+	border-width: 1px;
+	border-style: solid;
+}

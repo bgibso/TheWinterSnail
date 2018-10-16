@@ -1,0 +1,49 @@
+*{
+	text-align: left;
+
+}
+h1{
+	font-family: 'Kaushan Script', cursive;
+	text-align: left;
+	padding-top: 500px;
+	transform: rotate(-90deg);
+	float: left;
+	padding-left: 0;
+	margin-left: 0;
+	color:white;
+}
+h3{
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 10px;
+	float: left;
+	color:white;
+}
+body{
+	background-color: purple;
+}
+.subpoem{
+	font-family: 'Caveat', cursive;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: white;
+}
+.poem{
+	padding-left: 750px;
+}
+.poems{
+	padding-left: 750px;
+}
+.castle{
+	padding-left: 750px;
+}
+p{
+	font-family: 'Caveat', cursive;
+	padding-left: 550px;
+	padding-right: 100px;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+	color: white;
+}

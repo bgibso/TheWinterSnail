@@ -1,0 +1,48 @@
+
+h1{
+	font-family: 'Kodchasan', sans-serif;
+	text-align: left;
+	padding-top: 50px;
+	color: white;
+}
+h3{
+	font-family: 'Kodchasan', sans-serif;
+	text-align: left;
+	color: white;
+}
+h6{
+	font-family: 'Kodchasan', sans-serif;
+	text-align: center;
+}
+hr{
+	float: left;
+	width: 550px;
+}
+body{
+	background-color:  #ED5060;
+}
+.subpoem{
+	font-family: 'Kodchasan', sans-serif;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: white;
+}
+.poem{
+	padding-left: 1px;
+}
+.poems{
+	padding-left: 21px;
+}
+.castle{
+	padding-left: 31px;
+}
+p{
+	font-family: 'Merriweather', serif;
+	padding-right: 700px;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+	color: white;
+}
