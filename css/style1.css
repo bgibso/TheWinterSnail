@@ -1,0 +1,60 @@
+body{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	background-color: cyan;
+}
+#container{
+	width: 60vw;
+	margin: 5vw auto;
+	/*background-color: tan*/
+}
+.author{
+	font-weight: bold;
+	text-indent: 15px;
+	font-family: 'Bai Jamjuree', sans-serif;
+	text-align: center;
+}
+.title{
+	font-family: 'Bai Jamjuree', sans-serif;
+	text-decoration: underline;
+	text-indent: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+.subtitle{
+	text-align: center;
+	font-size: 1.1em;
+	margin-top: 25px;
+	font-style: bold;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+.sectionhead{
+	font-size: 1.5em;
+	text-indent: 15px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+.list{
+	font-weight: bold;
+	font-size: .95em;
+	text-indent: 15px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+.subhead{
+	font-size: 1.2em;
+	text-indent: 15px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+	font-family: 'Libre Baskerville', serif;
+}
+hr{
+	width: 55vw;
+	border-style: solid;
+}
+img{
+	max-width: 25vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
