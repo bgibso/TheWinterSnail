@@ -1,0 +1,248 @@
+*{
+	height: 500px;
+}
+
+.head{
+ left: 100px;
+}
+.pumpkin{
+
+}
+.circle1{
+	position: absolute;
+	width: 300px;
+    height: 300px;
+    background: orange;
+    border-radius: 50%;
+    left: 530px;
+    border-color: brown;
+    border-style: solid;
+    top: 200px;
+}
+.circle2{
+	position: absolute;
+	width: 150px;
+    height: 250px;
+    background: orange;
+    border-radius: 50%;
+    left: 700px;
+    top:230px;
+}
+.circle3{
+	position: absolute;
+	width: 150px;
+    height: 250px;
+    background: orange;
+    border-radius: 50%;
+    top:230px;
+    left: 500px;
+}
+.stem{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid brown;
+    border-left: 100px solid transparent;
+    left: 630px;
+    top: 120px;
+}
+.eye1{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid black;
+    border-left: 50px solid transparent;
+    left: 710px;
+    top: 300px;
+}
+.eye2{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid black;
+    border-left: 25px solid transparent;
+    left: 575px;
+    top: 300px;
+    }
+.nose1{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid black;
+    border-left: 30px solid transparent;
+    left: 650px;
+    top: 350px;
+    animation-name: lights;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.nose2{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid black;
+    border-right: 30px solid transparent;
+    left: 690px;
+    top: 350px;
+}
+.mouth{
+	position: absolute;
+	width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 50px solid black;
+	left: 560px;
+    top: 400px;
+}
+.tooth1{
+	position: absolute;
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid orange;
+	left: 625px;
+    top: 400px;
+}
+.tooth2{
+	position: absolute;
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid orange;
+	left: 710px;
+    top: 400px;
+}
+.collar{
+	position: absolute;
+	width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 200px solid black;
+	left: 425px;
+    top: 400px;
+}
+.jacket{
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	background: black;
+	left: 575px;
+    top: 400px;
+}
+.shirt{
+	position: absolute;
+	width: 50px;
+	height: 250px;
+	background: red;
+	border: 2px solid white;
+	left: 650px; 
+    top: 450px;
+}
+.vneck{
+	position: absolute;
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid white;
+	left: 630px;
+    top: 490px;
+}
+.waist{
+	position: absolute;
+	width: 200px;
+	height: 75px;
+	background: #707172;
+	left: 575px;
+	top: 700px;
+}
+.leg1{
+	position: absolute;
+	width: 75px;
+	height: 225px;
+	background: #707172;
+	left: 575px;
+	top: 700px;
+}
+.leg2{
+	position: absolute;
+	width: 75px;
+	height: 225px;
+	background: #707172;
+	left: 700px;
+	top: 700px;
+}
+.foot1{
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	background: black;
+    left: 700px;
+	top: 890px;
+}
+.foot2{
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	background: black;
+    left: 565px;
+	top: 890px;
+}
+.footbottom1{
+	position: absolute;
+	width: 95px;
+	height: 50px;
+	background: black;
+    left: 700px;
+	top: 950px;
+}
+.footbottom2{
+	position: absolute;
+	width: 95px;
+	height: 50px;
+	background: black;
+    left: 555px;
+	top: 950px;
+}
+.arm1{
+	position: absolute;
+	width: 75px;
+	height: 225px;
+	background: black;
+	left: 500px;
+	top: 475px; 
+	transform: rotate(25deg);
+}
+.arm2{
+	position: absolute;
+	width: 75px;
+	height: 225px;
+	background: black;
+	left: 775px;
+	top: 475px; 
+	transform: rotate(-25deg);
+}
+.hand1{
+	position: absolute;
+	width: 70px;
+    height: 70px;
+    background: #707172;
+    border-radius: 50%;
+    left: 457px;
+	top: 650px; 
+}
+.hand2{
+	position: absolute;
+	width: 70px;
+    height: 70px;
+    background: #707172;
+    border-radius: 50%;
+    left: 823px;
+	top: 650px; 
+}

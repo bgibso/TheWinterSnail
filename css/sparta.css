@@ -1,0 +1,18 @@
+*{
+	position: relative;
+}
+.decal{
+	top: 0;
+	left: 0;
+	width: 1440px;
+	height: auto;
+}
+.header{
+	position: absolute;
+    top: -110px;
+    left: 200px;
+	font-size: 10vw;
+}
+p{
+	width: 800px;
+}
