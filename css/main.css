@@ -1,0 +1,11 @@
+body{
+	background-color: white;
+	transition: all 3s ease;
+}
+p{
+	transition: all 5s ease;
+	margin: 0;
+}
+.bigger{
+	font-size: 400px;
+}

@@ -1,14 +1,14 @@
 
+#container{
+	width: 100vw;
+	background-color: tan;
+	margin: 0;
+}
 body{
 	margin: 0;
 	width: 100vw;
 }
 @media only screen and (max-width: 1440px){
-	#container{
-	width: 1440px;
-	background-color: tan;
-	margin: 0;
-}
 .decal{
 	position: relative;
 	width: 100vw;
@@ -16,9 +16,8 @@ body{
 	border-style: none;
 	max-width: none;
 	margin: 0;
-	top: 0;
-	left: 0;
 	background-size: contain;
+	padding-left: none;
 }
 .header{
 	position: absolute;
@@ -103,10 +102,12 @@ img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 10vw;
+	padding-right: 5vw;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	float: right;
-	max-width: 20vw;
-	max-height: 20vw ;
+	max-width: 30vw;
+	max-height: 30vw ;
 }
 .subhead{
 	padding-left: 7vw;
@@ -120,10 +121,10 @@ img{
 @media only screen and (max-width: 768px){
 .header{
 	position: relative;
-    top: 0px;
-    left: 0px;
 	font-size: 10vw;
 	font-family: Felix Titling;
+	float: center;
+	top: -60px;
 }
 .subhead{
 	font-size: 35px;
@@ -139,21 +140,38 @@ img{
 p{
 	position: relative;
 	padding-left: 5vw;
-	padding-right: 15px;
-	max-width: 89vw;
+	
+	max-width: 90vw;
+	min-width: 90vw;
 	font-family: candara;
 	font-size: 15px;
+	float: center;
 }
 img{
 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 5vw
-	max-width: 20vw;
-	max-height: 15vw;
-	float: middle;
+	padding-left: 10vw;
+	max-width: 300px;
+	max-height: auto;
 	text-overflow: none;
+	float: none;
+	min-width: auto;
+	min-height: auto;
+}
+.decal{
+	position: relative;
+	width: 99vw;
+	float: left;
+	border-style: none;
+	max-width: none;
+	min-width: none;
+	margin: 0;
+	background-size: contain;
+	padding-left: 0px;
+	padding-top: none;
+	padding-bottom: none;
 }
 .shield{
 	
@@ -195,14 +213,30 @@ p{
 	font-size: 12px;
 }
 img{
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 1vw;
-	padding-left: 1vw
-	max-width: 5vw;
+	padding-left: 10vw;
+	max-width: 300px;
 	max-height: auto;
-	float: center;
+	text-overflow: none;
+	float: none;
+	min-width: auto;
+	min-height: auto;
+}
+.decal{
+	position: relative;
+	width: 99vw;
+	float: left;
+	border-style: none;
+	max-width: none;
+	min-width: none;
+	margin: 0;
+	background-size: contain;
+	padding-left: 0px;
+	padding-top: none;
+	padding-bottom: none;
 }
 .subhead{
 	padding-left: 0vw;
