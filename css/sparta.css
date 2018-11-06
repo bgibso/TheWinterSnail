@@ -6,6 +6,7 @@
 }
 body{
 	margin: 0;
+	width: 100vw;
 }
 @media only screen and (max-width: 1440px){
 .decal{
@@ -17,6 +18,7 @@ body{
 	margin: 0;
 	top: 0;
 	left: 0;
+	background-size: contain;
 }
 .header{
 	position: absolute;
@@ -55,6 +57,9 @@ img{
 	max-height: auto;
 	background-color: none;
 }
+.shield{
+	background-color: ;
+}
 .subhead{
 	padding-left: 7vw;
 }
@@ -67,8 +72,8 @@ img{
 @media only screen and (max-width: 1020px){
 	.header{
 	position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -50px;
+    left: 10px;
 	font-size: 10vw;
 	font-family: Felix Titling;
 	text-align: center;
@@ -98,10 +103,10 @@ img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 15vw;
+	padding-right: 10vw;
 	float: right;
 	max-width: 20vw;
-	max-height: auto;
+	max-height: 20vw ;
 }
 .subhead{
 	padding-left: 7vw;
@@ -113,8 +118,8 @@ img{
 
 
 @media only screen and (max-width: 768px){
-	.header{
-	position: absolute;
+.header{
+	position: relative;
     top: 0px;
     left: 0px;
 	font-size: 10vw;
@@ -135,7 +140,7 @@ p{
 	position: relative;
 	padding-left: 5vw;
 	padding-right: 15px;
-	max-width: 368px;
+	max-width: 89vw;
 	font-family: candara;
 	font-size: 15px;
 }
@@ -145,8 +150,13 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 5vw
-	max-width: 15vw;
-	max-height: auto;
+	max-width: 20vw;
+	max-height: 15vw;
+	float: middle;
+	text-overflow: none;
+}
+.shield{
+	
 }
 .subhead{
 	padding-left: 5vw;
@@ -158,7 +168,7 @@ img{
 
 
 @media only screen and (max-width: 320px){
-	.header{
+.header{
 	position: absolute;
     top: 0px;
     left: 0px;
@@ -192,6 +202,7 @@ img{
 	padding-left: 1vw
 	max-width: 5vw;
 	max-height: auto;
+	float: center;
 }
 .subhead{
 	padding-left: 0vw;
