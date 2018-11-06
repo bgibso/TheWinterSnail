@@ -3,6 +3,7 @@
 	width: 100vw;
 	background-color: tan;
 	margin: 0;
+	overflow: hidden;
 }
 body{
 	margin: 0;
@@ -124,7 +125,7 @@ img{
 	font-size: 10vw;
 	font-family: Felix Titling;
 	float: center;
-	top: -60px;
+	top: -80px;
 }
 .subhead{
 	font-size: 35px;
@@ -161,8 +162,10 @@ img{
 	min-height: auto;
 }
 .decal{
+	top: 0;
+	left: 0;
 	position: relative;
-	width: 99vw;
+	width: 100vw;
 	float: left;
 	border-style: none;
 	max-width: none;
