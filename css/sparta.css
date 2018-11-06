@@ -1,14 +1,14 @@
 
-#container{
-	width: 100vw;
-	background-color: tan;
-	margin: 0;
-}
 body{
 	margin: 0;
 	width: 100vw;
 }
 @media only screen and (max-width: 1440px){
+	#container{
+	width: 1440px;
+	background-color: tan;
+	margin: 0;
+}
 .decal{
 	position: relative;
 	width: 100vw;
