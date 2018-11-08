@@ -15,6 +15,12 @@ img{
 .shield{
 	border: none;
 }
+a{
+	font-family: candara;
+	font-style: italic;
+	text-decoration: underline 1px;
+	color: #c43127;
+}
 @media only screen and (max-width: 1440px){
 .decal{
 	position: relative;
@@ -105,7 +111,7 @@ p{
 }
 img{
 	display: block;
-	margin-right: 1vw;
+	margin-right: 5vw;
 	float: right;
 	max-width: 30vw;
 	max-height: 20vw ;
