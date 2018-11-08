@@ -190,7 +190,7 @@ img{
 .header{
 	position: absolute;
     top: -20px;
-    left: 150px;
+    left: 100px;
 	font-size: 8vw;
 	font-family: Felix Titling;
 	text-align: center;
@@ -210,23 +210,23 @@ img{
 }
 p{
 	position: relative;
-	padding-left: 0vw;
-	padding-right: 15px;
-	width: 5vw;
+	padding-left: 3vw;
+	
+	max-width: 90vw;
+	min-width: 90vw;
 	font-family: candara;
-	font-size: 12px;
+	font-size: 15px;
+	float: center;
 }
 img{
-
-	display: block;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	max-width: 30vw;
-	max-height: auto;
-	text-overflow: none;
-	float: none;
-	min-width: auto;
-	min-height: auto;
+	position: relative;
+	padding-left: 5vw;
+	
+	max-width: 90vw;
+	min-width: 90vw;
+	font-family: candara;
+	font-size: 15px;
+	float: center;
 }
 .decal{
 	position: relative;
