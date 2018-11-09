@@ -1,0 +1,87 @@
+ body{
+ 	margin: 0;
+ 	font-size: 28;
+ 	overflow: hidden;
+ }
+ .moveITR {
+    right: 0;
+}
+.moveITL {
+    left: 0;
+}
+.typeMove {
+    padding-top: 80vh;
+    padding-right: 50vw;
+}
+ .blue{
+ 	padding-top: 300px;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: cyan;
+ 	text-align: center;
+ 	float: center;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
+ .ow{
+ 	position: absolute;
+ 	padding-top: 300px;
+ 	margin: 0;
+ 	top: 0;
+ 	left: -100%;
+ 	background-color: yellow;
+ 	text-align: center;
+ 	float: center;
+ 	width: 100vw;
+ 	height: 100vh;
+ 	transition: all 2s ease;
+ }
+ .batman{
+ 	padding-top: 300px;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: silver;
+ 	text-align: center;
+ 	float: center;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
+ .skyrim{
+ 	padding-top: 300px;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	font: white; 
+ 	text-align: center;
+ 	float: center;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
+ .bros{
+ 	padding-top: 300px;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: orange;
+ 	text-align: center;
+ 	float: center;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
+ .Halo{
+ 	padding-top: 300px;
+ 	margin: 0;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: grey;
+ 	text-align: center;
+ 	float: center;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
+ .jqClick, .jqHover {
+    cursor: pointer;
+}
