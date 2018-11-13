@@ -1,0 +1,47 @@
+*{
+	text-align: center;
+}
+h1{
+	font-family: 'Chakra Petch', sans-serif;
+	position: fixed;
+	transform: rotate(-90deg);
+	margin-top: 250px;
+	padding-top: 20px;
+}
+h3{
+	font-family: 'Chakra Petch', sans-serif;
+	padding-left: 0px;
+	margin-top: 50px;
+}
+h6{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: pink;
+	margin: 0;
+}
+.subpoem{
+	font-family: 'Inconsolata', monospace;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.poem{
+	padding-left: 0px;
+}
+.poems{
+	padding-left: 0px;
+}
+.castle{
+	padding-left: 0px;
+}
+p{
+	font-family: 'Inconsolata', monospace;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+	padding-left: 300px;
+	padding-right: 300px;
+}

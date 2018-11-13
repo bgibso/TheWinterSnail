@@ -1,0 +1,40 @@
+h1{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+}
+h3{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+h6{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: tan;
+}
+.subpoem{
+	font-family: 'Charmonman', cursive;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.poem{
+	padding-left: 200px;
+}
+.poems{
+	padding-left: 220px;
+}
+.castle{
+	padding-left: 330px;
+}
+p{
+	font-family: 'Noto Serif JP', sans-serif;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+}

@@ -1,0 +1,49 @@
+body {
+	background-color: #91963a;
+}
+@keyframes title{
+	0% {color: #63431d;}
+    50% {color: #bc6927;}
+    100% {color: #63431d;}
+}
+h1 {
+	font-size: 78px;
+	color: rgb(79, 173, 39);
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	animation-name: title;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+    
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+a { 
+    text-align: center;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 36px;
+	color: #ee3024;
+	text-decoration: underline overline;
+	text-decoration-style: solid;
+	font-family: 'Inconsolata', monospace;
+}
+a:hover {
+	color: #cbe4e0;
+	text-decoration-style: dotted;
+	transition: all .75s ease-in;
+}
+
+img {
+	width: 4.25in;
+	height: 5.5in;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px rgba(0, 0, 0, .5);
+}

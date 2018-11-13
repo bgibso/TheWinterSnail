@@ -1,0 +1,63 @@
+*{
+	text-align: center;
+	position: relative;
+}
+hr{
+	transform: rotate(90deg);
+	float: left;
+	padding-left: 1500px;
+	width: 100px;
+	position: fixed;
+	border-style: solid;
+}
+.hr{
+	transform: rotate(90deg);
+	width: 1000px;
+	position: fixed;
+	border-style: solid;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+h3{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	
+}
+h6{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: #e09a3e;
+}
+.subpoem{
+	float: center;
+	font-family: 'Krub', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.poem{
+	
+}
+.poems{
+	
+}
+.castle{
+	
+}
+p{
+	float: center;
+	padding-top: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	font-family: 'EB Garamond', serif;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+}

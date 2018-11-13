@@ -1,0 +1,55 @@
+*{
+	text-align: left;
+	position: relative;
+}
+hr{
+	transform: rotate(90deg);
+	float: left;
+	padding-left: 1450px;
+	width: 100px;
+	position: fixed;
+	border-style: solid;
+}
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: left;
+	padding-top: 50px;
+	size: 75%;
+}
+h3{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: left;
+	size: 75%;
+}
+h6{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: #F9E79F;
+}
+.subpoem{
+	font-family: 'Amatic SC', cursive;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.poem{
+	padding-left: 10px;
+}
+.poems{
+	padding-left: 20px;
+}
+.castle{
+	padding-left: 30px;
+}
+p{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 600px;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+}

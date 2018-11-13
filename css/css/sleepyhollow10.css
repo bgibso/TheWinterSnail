@@ -1,0 +1,46 @@
+*{
+	color: white;
+}
+
+h1{
+	font-family: 'Righteous', cursive;
+	padding-left: 100px;
+}
+h3{
+	font-family: 'Righteous', cursive;
+	padding-left: 420px;
+}
+h6{
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+body{
+	background-color: #b726b0;
+}
+.subpoem{
+	font-family: 'Cinzel', serif;
+	text-align: right;
+	padding-right: 725px;
+	
+}
+.poem{
+	
+}
+.poems{
+	
+}
+.castle{
+	
+}
+p{
+	text-align: left;
+	font-family: 'Cardo', serif;
+	padding-left: 100px;
+	padding-right: 675px;
+	padding-bottom: 10px;
+	text-indent: 35px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 25px;
+	letter-spacing: .5px;
+}
