@@ -29,7 +29,7 @@
  	padding-top: 300px;
  	margin: 0;
  	top: 0;
- 	left: -100%;
+ 	right: 100%;
  	background-color: yellow;
  	text-align: center;
  	float: center;
@@ -38,50 +38,61 @@
  	transition: all 2s ease;
  }
  .batman{
+ 	position: absolute;
  	padding-top: 300px;
  	margin: 0;
  	top: 0;
- 	left: 0;
- 	background-color: silver;
+ 	right: 100%;
+ 	background-color: black;
  	text-align: center;
  	float: center;
  	width: 100vw;
  	height: 100vh;
+ 	transition: all 2s ease;
  }
  .skyrim{
+ 	position: absolute;
  	padding-top: 300px;
  	margin: 0;
  	top: 0;
- 	left: 0;
+ 	right: 100%;
  	background-color: black;
- 	font: white; 
+ 	text-decoration: white;
  	text-align: center;
  	float: center;
  	width: 100vw;
  	height: 100vh;
+ 	transition: all 2s ease;
  }
  .bros{
+ 	position: absolute;
  	padding-top: 300px;
  	margin: 0;
  	top: 0;
- 	left: 0;
+ 	right: 100%;
  	background-color: orange;
  	text-align: center;
  	float: center;
  	width: 100vw;
  	height: 100vh;
+ 	transition: all 2s ease;
  }
  .Halo{
+ 	position: absolute;
  	padding-top: 300px;
  	margin: 0;
  	top: 0;
- 	left: 0;
+ 	right: 100%;
  	background-color: grey;
  	text-align: center;
  	float: center;
  	width: 100vw;
  	height: 100vh;
+ 	transition: all 2s ease;
  }
  .jqClick, .jqHover {
     cursor: pointer;
+}
+.moveITL{
+	right: 0;
 }
