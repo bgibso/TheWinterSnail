@@ -1,28 +1,37 @@
 body{
-	width: 80vw;
+	width: 100vw;
 	float: left;
 	margin: 0;
-
+	padding-right: 0;
+	overflow-x: hidden;
 }
 @media only screen and (max-width: 1440px){
 p{
 	float: center;
 	width: 55vw;
 	padding-left: 23vw;
+	font-family: lucida fax;
+}
+img{
+	margin: 0;
 }
 .list{
 	float: center;
-	width: 500px;
+	width: 50vw;
 	padding-left: 23vw;
 	font-size: 20px;
 	
 }
 .header{
 	max-width: 100vw;
+	margin: 0;
 }
 li{
-	padding-bottom: 25px;
+	padding-bottom: 55px;
 	font-size: 35px;
+	font-style: italic;
+	text-align: left;
+	list-style: none;
 }
 .bio{
 	padding-left: 23vw;
@@ -38,11 +47,22 @@ li{
 	float: left;
 	padding-bottom: 25px;
 }
-.content{
-	padding-top: 
+a{
+	text-decoration: none;
 }
+
 .about{
-	float: left;
-	padding: none;
+	float: center;
 }
+.content{
+	margin: none;
+}
+h1{
+	font-weight: normal;
+}
+.band{
+	max-width: 80vw;
+	padding-top: 25px;
+	float: center;
+
 }
