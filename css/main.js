@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 });
 
-function demoFunction(){
+function demoFunction() {
 	$('p').click(function(){
 		$('p').toggleClass('bigger');
 		$('body').addClass('bgColor');

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	demoFunction();
+	interactions();
 
 	$(window).resize(function(){
 
@@ -10,9 +10,9 @@ $(document).ready(function() {
 	});
 });
 
-function demoFunction() {
-	$('p').click(function(){
-		$('p').toggleClass('bigger');
-		$('body').addClass('bgColor');
+function interactions() {
+	$('#jqClick').click(function(){
+		$('.number5').addClass('moveIT');
+		console.log('clicked');
 	});
 }
