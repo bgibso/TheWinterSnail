@@ -418,5 +418,6 @@ hr{
 .bands{
 	width: 500px;
 	float: center;
+	padding-right: 2vw;
 }
 }
