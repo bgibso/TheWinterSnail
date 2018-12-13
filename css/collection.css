@@ -415,4 +415,8 @@ hr{
 	color: grey;
 	text-decoration: underline;
 }
+.bands{
+	width: 500px;
+	float: center;
+}
 }
